@@ -1,6 +1,7 @@
 #!/bin/bash
 set -e
 
+export PATH="/usr/sbin:/usr/bin:/sbin:/bin"
 # Prepare .ssh directory
 mkdir -p /root/.ssh
 chmod 700 /root/.ssh
